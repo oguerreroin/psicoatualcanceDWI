@@ -1,0 +1,94 @@
+/* Agrupación de campos para mejor presentación */
+.form-group {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 480px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 36px 32px 32px 32px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(44,62,80,0.12);
+    border: 1px solid #eaeaea;
+}
+
+h1 {
+    text-align: center;
+    color: #2980b9;
+    font-size: 2.1em;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    font-weight: 500;
+    color: #34495e;
+    font-size: 1.05em;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border: 1px solid #bfc9d1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    background: #f8fafc;
+    transition: border-color 0.2s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+button {
+    margin-top: 28px;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #2980b9 0%, #6dd5fa 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.15em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 18px;
+}
+
+ul li {
+    background: #f8fafc;
+    margin-bottom: 10px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    font-size: 1em;
+}
