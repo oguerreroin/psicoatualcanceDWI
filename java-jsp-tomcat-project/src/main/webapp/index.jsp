@@ -42,5 +42,8 @@
         <button type="submit">Agendar cita</button>
     </form>
 </div>
+<div class="unidad-section">
+    <%@ include file="unidad1.jsp" %>
+</div>
 </body>
 </html>

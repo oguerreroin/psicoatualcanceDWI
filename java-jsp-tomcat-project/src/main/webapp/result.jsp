@@ -21,6 +21,10 @@
         <li><strong>Psicólogo:</strong> ${cita.psicologo}</li>
     </ul>
     <a href="index.jsp"><button>Agendar otra cita</button></a>
+    <a href="DownloadCitas"><button>Ver/Descargar todas las citas</button></a>
+</div>
+<div class="unidad-section">
+    <%@ include file="unidad1.jsp" %>
 </div>
 </body>
 </html>
